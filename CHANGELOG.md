@@ -25,6 +25,15 @@ Here we write the updates of future releases.
 
 
 
+## [1.0.1] - 09-06-2026
+
+### Added
+- Initial crude screens
+- Module folders
+
+
+
+
 ## [1.0.0] - 09-06-2026
 
 ### Added

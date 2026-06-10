@@ -2,7 +2,7 @@ name: clean_architecture_reference
 description: "A new Flutter project that incorporates a clean architecture."
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.7.2
