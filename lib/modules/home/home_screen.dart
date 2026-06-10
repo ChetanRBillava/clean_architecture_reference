@@ -1,3 +1,4 @@
+import 'package:clean_architecture_reference/core/constants/app_strings.dart';
 import 'package:flutter/material.dart';
 
 import '../profile/profile_screen.dart';
@@ -15,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text('Home Screen'),
+        title: Text(AppStrings.homeScreenTitle),
         automaticallyImplyLeading: false,
         actions: [
           IconButton(
@@ -29,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-      body: Center(child: Text('Welcome user')),
+      body: Center(child: Text(AppStrings.welcomeUser)),
     );
   }
 }

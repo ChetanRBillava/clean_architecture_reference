@@ -1,3 +1,4 @@
+import 'package:clean_architecture_reference/core/constants/app_strings.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -13,7 +14,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text('Profile Screen'),
+        title: Text(AppStrings.profileScreenTitle),
         actions: [
           IconButton(
             onPressed: () {
@@ -24,7 +25,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ),
         ],
       ),
-      body: Center(child: Text('Welcome User')),
+      body: Center(child: Text(AppStrings.welcomeUser)),
     );
   }
 }

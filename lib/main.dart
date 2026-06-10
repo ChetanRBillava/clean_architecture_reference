@@ -1,6 +1,9 @@
+import 'package:clean_architecture_reference/core/constants/app_strings.dart';
+import 'package:clean_architecture_reference/modules/login/presentation/bloc/login_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'modules/login/login_screen.dart';
+import 'modules/login/presentation/screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +14,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Clean Architecture App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+    return BlocProvider(
+      create: (context) => LoginBloc(),
+      child: MaterialApp(
+        title: AppStrings.appName,
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        ),
+        home: const LoginScreen(),
       ),
-      home: const LoginScreen(),
     );
   }
 }

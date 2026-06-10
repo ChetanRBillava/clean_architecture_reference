@@ -25,7 +25,17 @@ Here we write the updates of future releases.
 
 
 
-## [1.0.1] - 09-06-2026
+## [1.0.2] - 10-06-2026 - Presentation Layer
+
+### Added
+- Flutter bloc plugin
+- Presentation layer with screens, widgets, and bloc folder
+- Strings constant file to maintain all the strings within the app
+
+
+
+
+## [1.0.1] - 10-06-2026 - Modules
 
 ### Added
 - Initial crude screens
@@ -34,7 +44,7 @@ Here we write the updates of future releases.
 
 
 
-## [1.0.0] - 09-06-2026
+## [1.0.0] - 09-06-2026 - Setup
 
 ### Added
 - All necessary startup files

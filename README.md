@@ -1,4 +1,4 @@
-# clean_architecture_reference
+# Clean Architecture Reference Project
 
 A new Flutter project that incorporates a clean architecture.
 
