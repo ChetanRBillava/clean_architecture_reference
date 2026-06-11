@@ -25,6 +25,15 @@ Here we write the updates of future releases.
 
 
 
+## [1.0.3] - 11-06-2026 - Domain Layer
+
+### Added
+- Domain folder with entities, repositories, and use-case subfolders
+- Added all the appropriate domain files for login module
+
+
+
+
 ## [1.0.2] - 10-06-2026 - Presentation Layer
 
 ### Added
